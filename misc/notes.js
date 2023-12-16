@@ -29,4 +29,21 @@
 
     cors: a middleware that can be used to enable CORS with various options (cross origin resource sharing). It is to allow the server to accept requests from a different origin.
 
+    JWT Process:
+
+    1. User signs in with username and password
+    2. Server checks if the username exists in the database
+    3. Server checks if the password is correct
+    4. Server generates a token and returns it to the user
+    5. all the subsequent requests from the user will contain the token in the header
+    6. using the token, the server can identify the user and send the appropriate response
+
+*/
+
+/*
+    User Story for the Social Media App
+
+    1. As a user, I want to be able to sign up for an account
+    2. As a user, I want to be able to sign in to my account
+    3. As a user, from the dashboard page, I want to be able to create a new post
 */
