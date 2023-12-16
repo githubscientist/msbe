@@ -1,6 +1,6 @@
-Backend Project for a Social Media Application
+### Backend Project for a Social Media Application
 
-Tech Stack: 
+#### Tech Stack: 
 
 - Frontend: ReactJS
 - Backend: NodeJS + ExpressJS
