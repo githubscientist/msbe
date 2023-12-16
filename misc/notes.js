@@ -26,4 +26,7 @@
         3. Database
             - MongoDB: a NoSQL database
             - Mongoose: an Object Data Modeling (ODM) library for MongoDB and Node.js
+
+    cors: a middleware that can be used to enable CORS with various options (cross origin resource sharing). It is to allow the server to accept requests from a different origin.
+
 */
