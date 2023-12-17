@@ -12,7 +12,7 @@ const authMiddleware = {
         const getTokenFrom = (req) => {
             const authorization = req.headers.authorization;
 
-            if (authorization && authorization.toLowerCase().startsWith('bearer')) {
+            if (authorization && authorization.toLowerCase().startsWith('bearer ')) {
                 return authorization.substring(7);
             }
 

@@ -46,4 +46,26 @@
     1. As a user, I want to be able to sign up for an account
     2. As a user, I want to be able to sign in to my account
     3. As a user, from the dashboard page, I want to be able to create a new post
+    4. As a user, from the dashboard page, I want to be able to view all the posts
+    5. As a user, from the dashboard page, I want to be able to view a single post
+    6. As a user, from the dashboard page, I want to be able to update a post
+    7. As a user, from the dashboard page, I want to be able to delete a post
+    8. As a user, from the dashboard page, I want to be able to sign out of my account
+    9. As a user, from the dashboard page, I want to be able to view my profile
+    10. As a user, from the dashboard page, I want to be able to update my profile
+    11. As a user, from the dashboard page, I want to be able to delete my account
+    12. As a user, from the dashboard page, I want to be able to view all the users
+    13. As a user, from the dashboard page, I want to be able to view a single user
+    14. As a user, from the dashboard page, I want to be able to view my followers
+    15. As a user, from the dashboard page, I want to be able to view the users I am following
+    16. As a user, from the dashboard page, I want to be able to follow a user
+    17. As a user, from the dashboard page, I want to be able to unfollow a user
+    18. As a user, for a particular post, I want to be able to like a post
+    19. As a user, for a particular post, I want to be able to unlike a post
+    20. As a user, for a particular post, I want to be able to comment on a post
+    21. As a user, for a particular post, I want to be able to view all the comments on a post posted by all users
+    22. As a user, for a particular post, I want to be able to view a single comment on a post
+    23. As a user, for a particular post, I want to be able to update a comment on a post that the user created
+    24. As a user, for a particular post, I want to be able to delete a comment on a post that the user created
+    25. As a user, for a particular post, I want to be able to view all the likes on a post posted by all users
 */

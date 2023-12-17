@@ -71,6 +71,21 @@ const userController = {
         } catch (error) {
             response.status(500).json({ error: error.message })
         }
+    },
+
+    getUser: async (request, response) => {
+        try {
+            // get the user id from the request
+            const userId = request.userId;
+
+            // get the user from the database
+            const user = await User.findById(userId);
+
+            // return the user
+            response.json({ message: 'user retrieved', user });
+        } catch (error) {
+            response.status(500).json({ error: error.message });
+        }
     }
 }
 
